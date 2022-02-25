@@ -59,57 +59,57 @@ function game_mech(a, b, c) {
 
     let computerSelection = computerPlay();
 
-    if (a && computerSelection == 'scissors') {
-        youSlt.textContent = "You:" + " " + "✊🏻";
-        compSlt.textContent = "Robot:" + " " + "✌🏻";
+   if (a && computerSelection == 'scissors') {
+        youSlt.textContent = "YOU:" + " " + "✊🏻";
+        compSlt.textContent = "ROBOT:" + " " + "✌🏻";
         whoWin.textContent = "You won!";
         yourScore.textContent = yourSc++;
 
     } else if (a && computerSelection == 'paper') {
-        youSlt.textContent = "You:" + " " + "✊🏻";
-        compSlt.textContent = "Robot:" + " " + "✋🏻";
+        youSlt.textContent = "YOU:" + " " + "✊🏻";
+        compSlt.textContent = "ROBOT:" + " " + "✋🏻";
         computerScore.textContent = computerSc++;
         whoWin.textContent = "Computer won!";
 
     } else if (a && computerSelection == 'rock') {
-        youSlt.textContent = "You:" + " " + "✊🏻";
-        compSlt.textContent = "Robot:" + " " + "✊🏻";
+        youSlt.textContent = "YOU:" + " " + "✊🏻";
+        compSlt.textContent = "ROBOT:" + " " + "✊🏻";
         whoWin.textContent = "Tie!";
     }
 
     if (b && computerSelection == 'rock') {
-        youSlt.textContent = "You:" + " " + "✋🏻";
-        compSlt.textContent = "Robot:" + " " + "✊🏻";
+        youSlt.textContent = "YOU:" + " " + "✋🏻";
+        compSlt.textContent = "ROBOT:" + " " + "✊🏻";
         whoWin.textContent = "You won!";
         yourScore.textContent = yourSc++;
 
     } else if (b && computerSelection == 'scissors') {
-        youSlt.textContent = "You:" + " " + "✋🏻";
-        compSlt.textContent = "Robot:" + " " + "✌🏻";
+        youSlt.textContent = "YOU:" + " " + "✋🏻";
+        compSlt.textContent = "ROBOT:" + " " + "✌🏻";
         computerScore.textContent = computerSc++;
         whoWin.textContent = "Computer won!";
 
     } else if (b && computerSelection == 'paper') {
-        youSlt.textContent = "You:" + " " + "✋🏻";
-        compSlt.textContent = "Robot:" + " " + "✋🏻";
+        youSlt.textContent = "YOU:" + " " + "✋🏻";
+        compSlt.textContent = "ROBOT:" + " " + "✋🏻";
         whoWin.textContent = "Tie!";
     }
 
     if (c && computerSelection == 'paper') {
-        youSlt.textContent = "You:" + " " + "✌🏻";
-        compSlt.textContent = "Robot:" + " " + "✋🏻";
+        youSlt.textContent = "YOU:" + " " + "✌🏻";
+        compSlt.textContent = "ROBOT:" + " " + "✋🏻";
         whoWin.textContent = "You won!";
         yourScore.textContent = yourSc++;
 
     } else if (c && computerSelection == 'rock') {
-        youSlt.textContent = "You:" + " " + "✌🏻";
-        compSlt.textContent = "Robot:" + " " + "✊🏻";
+        youSlt.textContent = "YOU:" + " " + "✌🏻";
+        compSlt.textContent = "ROBOT:" + " " + "✊🏻";
         computerScore.textContent = computerSc++;
         whoWin.textContent = "Computer won!";
 
     } else if (c && computerSelection == 'scissors') {
-        youSlt.textContent = "You:" + " " + "✌🏻";
-        compSlt.textContent = "Robot:" + " " + "✌🏻";
+        youSlt.textContent = "YOU:" + " " + "✌🏻";
+        compSlt.textContent = "ROBOT:" + " " + "✌🏻";
         whoWin.textContent = "Tie!";
     }
 
@@ -121,13 +121,13 @@ function game_mech(a, b, c) {
 function system() {
 
     if (yourSc == 6 && computerSc < 6) {
-        whoWin.textContent = "Congratulations! You won the game!🎉";
+        whoWin.textContent = "CONGRATS! You won the game!🎉";
         rockSl.disabled = true;
         paperSl.disabled = true;
         scissorsSl.disabled = true;
 
     } else if (computerSc == 6 && yourSc < 6) {
-        whoWin.textContent = "Sorry, Computer won the game 🤖";
+        whoWin.textContent = "SORRY, Computer won the game 🤖";
         rockSl.disabled = true;
         paperSl.disabled = true;
         scissorsSl.disabled = true;
