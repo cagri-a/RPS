@@ -30,7 +30,7 @@ h1 {
 
 h3 {
     font-family: 'VT323', monospace;
-    font-size: 2rem;
+    font-size: 2.3rem;
     font-weight: 100;
     text-align: center;
     padding: 0.5rem;
@@ -167,7 +167,7 @@ button {
 
 #youSelect {
     font-family: 'VT323', monospace;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     font-weight: 100;
     text-shadow: -1px 1px #ef3550,
         -2px 2px #f48fb1,
@@ -177,7 +177,7 @@ button {
 
 #compSelect {
     font-family: 'VT323', monospace;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     font-weight: 100;
     text-shadow: -1px 1px #ef3550,
         -2px 2px #f48fb1,
