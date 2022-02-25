@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="rps.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <title>Rock, Paper, Scissors</title>
+</head>
+
+
+<body>
+
+    <h1>Rock, Paper, Scissors</h1>
+    <h3 id="whoWins">First one to reach 5 wins<br> Good Luck!🍀</br></h3>
+
+    <div class="rBtn"><button class="restart"></button></div>
+
+    <div id="playerDiv">💁🏻‍♂️ Your score is:
+        <span id="playerSpn">0</span>
+    </div>
+
+    <div id="computerDiv">🤖 Computer's score is:
+        <span id="computerSpn">0</span>
+    </div>
+
+    <div class="selections">
+        <p id="youSelect">You:</p>
+        <p id="compSelect">Rock:</p>
+    </div>
+
+    <div class="buttons">
+        <button id="rockBtn"><img class="rckImg" src="images/rock1.png"></button>
+        <button id="paperBtn"><img class="pprImg" src="images/paper1.png"></button>
+        <button id="scissorsBtn"><img class="scsImg" src="images/scissors1.png"></button>
+    </div>
+
+    <script src="rps.js"></script>
+</body>
+
+</html>

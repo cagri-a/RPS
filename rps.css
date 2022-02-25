@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background: url(images/bckgrnd.png);
+    background-repeat: repeat;
+}
+
+
+h1 {
+    font-family: 'VT323', monospace;
+    font-size: 4rem;
+    font-weight: 100;
+    text-align: center;
+    padding: 1rem 1rem 2rem 1rem;
+    margin: 1rem;
+    text-shadow: -2px 2px #ef3550,
+        -4px 4px #f48fb1,
+        -6px 6px #7e57c2,
+        -8px 8px #2196f3,
+        -10px 10px #26c6da,
+        -12px 12px #43a047,
+        -14px 14px #eeff41,
+        -16px 16px #f9a825,
+        -18px 18px #ff5722;
+}
+
+h3 {
+    font-family: 'VT323', monospace;
+    font-size: 2rem;
+    font-weight: 100;
+    text-align: center;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    text-shadow: -4px 4px #ef3550,
+        -2px 2px #f48fb1,
+        -4px 4px #7e57c2,
+        -6px 6px #2196f3,
+        -8px 8px #26c6da,
+        -10px 10px #43a047;
+}
+
+#playerDiv {
+    font-family: 'VT323', monospace;
+    font-size: 1.5rem;
+    font-weight: 100;
+    text-align: center;
+    padding: 0.5;
+    margin: 0.5rem;
+    text-shadow: -1px 1px #ef3550,
+        -2px 2px #f48fb1,
+        -4px 4px #7e57c2,
+        -6px 6px #2196f3,
+        -8px 8px #26c6da,
+        -10px 10px #43a047;
+}
+
+#computerDiv {
+    font-family: 'VT323', monospace;
+    font-size: 1.5rem;
+    font-weight: 100;
+    text-align: center;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    text-shadow: -1px 1px #ef3550,
+        -2px 2px #f48fb1,
+        -4px 4px #7e57c2,
+        -6px 6px #2196f3,
+        -8px 8px #26c6da,
+        -10px 10px #43a047;
+}
+
+#playerSpn {
+    font-size: 2.5rem;
+}
+
+#computerSpn {
+    font-size: 2.5rem;
+}
+
+
+button {
+    border: none;
+    height: auto;
+    width: fit-content;
+    background: transparent;
+}
+
+
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: no-wrap;
+}
+
+.restart {
+    cursor: grab;
+    color: black;
+    font-family: 'VT323', monospace;
+    font-size: 4rem;
+    font-weight: 100;
+    text-align: center;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    text-shadow: -1px 1px #ef3550,
+        -2px 2px #f48fb1,
+        -4px 4px #7e57c2,
+        -6px 6px #2196f3,
+        -8px 8px #26c6da,
+        -10px 10px #43a047;
+}
+
+
+.restart:hover {
+    font-size: 3.7rem;
+}
+
+.rBtn {
+    display: flex;
+    justify-content: center;
+}
+
+.rckImg {
+    cursor: grab;
+    width: 5.5rem;
+    height: 4.5rem;
+    margin: 3rem 2rem 2rem 2rem;
+}
+
+.pprImg {
+    cursor: grab;
+    width: 5.5rem;
+    height: 4.5rem;
+    margin: 3rem 2rem 2rem 2rem;
+}
+
+.scsImg {
+    cursor: grab;
+    width: 5.5rem;
+    height: 4.5rem;
+    margin: 3rem 2rem 2rem 2rem;
+}
+
+
+
+
+.rckImg:hover {
+    width: 5.9rem;
+    height: 4.9rem;
+}
+
+.pprImg:hover {
+    width: 5.9rem;
+    height: 4.9rem;
+}
+
+.scsImg:hover {
+    width: 5.9rem;
+    height: 4.9rem;
+}
+
+
+.selections {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+#youSelect {
+    font-family: 'VT323', monospace;
+    font-size: 1.4rem;
+    font-weight: 100;
+    text-shadow: -1px 1px #ef3550,
+        -2px 2px #f48fb1,
+        -4px 4px #7e57c2,
+        -6px 6px #2196f3,
+        -8px 8px #26c6da,
+        -10px 10px #43a047;
+}
+
+
+#compSelect {
+    font-family: 'VT323', monospace;
+    font-size: 1.4rem;
+    font-weight: 100;
+    text-shadow: -1px 1px #ef3550,
+        -2px 2px #f48fb1,
+        -4px 4px #7e57c2,
+        -6px 6px #2196f3,
+        -8px 8px #26c6da,
+        -10px 10px #43a047;
+}
